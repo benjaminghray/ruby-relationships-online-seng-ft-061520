@@ -7,10 +7,7 @@ require_relative '../config/environment.rb'
 # run my application:
 
 
-gahanna_library = Library.new(
-  "Gahanna Library",
-  "Gahanna, OH"
-)
+gahanna_library = Library.new("Gahanna Library", "Gahanna, OH")
 
 snowy_day = Book.new("Snowy Day", "Ezra Keats")
 
