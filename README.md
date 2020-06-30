@@ -24,3 +24,7 @@ Can we think of a real-world one-to-many relationship?
 To make this work, we will establish:
 - A library class
 - A book class
+
+We need to consider both sides of a relationship.  As we add a book to a library's collection, for example, we also need to add the library to the book.  And vice versa.  
+
+In this code we now have a very basic example of a has-many/belongs-to relationship.  This is the very tiny tip of a rather large iceberg that we will be exploring much further in mod 2.  Going forward, we will focus on the project.
